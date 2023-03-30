@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.carsc{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    padding: 0 ;
+    margin: 0 20%;
+    margin-top: 10%;
+}
+
+.firstc{
+    background-color:rgb(226, 133, 37) ;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.secondc{
+    background-color: rgb(1, 105, 114);
+    color: white;
+    
+}
+.thirdc{
+    background-color: 00403f;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.carsc h1{
+    margin: 40px 0;
+}
+
+.card{
+    box-sizing: border-box;
+    padding: 8px 37px;
+    height: 28rem;
+    width: 50rem;
+
+
+}
+button{
+    background-color: white;
+    font-size: 22px;
+    max-width: 10rem;
+    max-height: 20rem;
+    border-radius: 15px;
+    margin-top: 4rem;
+    
+}
+
+@media screen and (max-width:680px)  {
+
+        
+    
+    .carsc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+        margin: 0px ;
+    }
+    .card{
+        padding: 0 ;
+        height: 20rem;
+        width:20rem;
+        text-align: center;
+        padding: 5px 10px;
+        margin-left: 0;
+        
+    }
+
+        .firstc {
+            background-color: rgb(226, 133, 37);
+            color: white;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 0;
+        }
+                .thirdc {
+                    background-color: 00403f;
+                    color: white;
+                    border-top-right-radius: 0px;
+                    border-bottom-right-radius: 20px;
+                    border-bottom-left-radius: 20px;
+
+                    
+                }
+
+    button{
+        margin-top: 2rem;
+        width: 45%;
+    }
+}
